@@ -1,0 +1,71 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-gap: 1em;
+}
+
+* {box-sizing: border-box;}
+
+.wrapper > div {
+  background-color: #ffd8a8;
+  padding: 1em;
+  color: #d9480f;
+}
+
+p {font-family: NTR, sans-serif;
+font-size: 24px;
+color: #000000;}
+
+h2{font-family: Montserrat;
+font-size: 36px;
+color: #000000;
+}
+
+h1{font-family: Montserrat;
+font-size: 48px;
+color: #000000;
+}
+
+
+.one {
+  grid-column-start: 2;
+  grid-column-end: 5;
+  grid-row-start: 1;
+}
+
+.two {
+  grid-column-start: 5;
+  grid-column-end: 8;
+  grid-row-start: 1;
+}
+
+.three {
+  grid-column-start: 2;
+  grid-column-end: 8;
+  grid-row-start: 2;
+}
+
+.four {
+  grid-column-start: 2;
+  grid-column-end: 8;
+  grid-row-start: 3;
+}
+
+img {
+  display: block;
+  margin: auto;
+  padding: 10px;
+}
+
+footer{
+  background-color:#FFFFFF;
+  padding:10px;}
+
+/********* BASIC NAV STYLES THAT AREN'T AFFECTED BY BROWSER WIDTH *********/
+.nav-wrapper {background-color: #000000;}
+.topnav { display: flex;}
+.topnav a { color: white; padding: 14px 16px; text-decoration: none; font-size:17px;}
+.topnav a:hover { color: yellow;}
+.topnav a.active { background-color: #4CAF50; color: white;}
+.topnav .icon { display: none;}
+/*** end basic nav styling ***/
